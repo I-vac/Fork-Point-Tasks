@@ -130,10 +130,11 @@
 
 
 //9ta tochka
-// function getGCD(){
+// function getGCD(number1,number2){
 //   let message = "You must put 2 numbers"
   
-//   if(typeof arguments[0] !== "number" || typeof arguments[1] !== "number"){ // proverqva dali sa podadeni chisla
+  
+//   if(typeof number1 !== "number" || typeof number2 !== "number"){ // proverqva dali sa podadeni chisla
 //     return message;
 //   }
 
@@ -141,17 +142,18 @@
 //     return message;
 //   }
 
-//   number1 = Math.abs(arguments[0]);
-//   number2 = Math.abs(arguments[1]);
-//   while(arguments[1]) {
-//     var temp = arguments[1];
-//     arguments[1] = arguments[0] % arguments[1];
-//     arguments[0] = temp;
+//   number1 = Math.abs(number1);
+//   number2 = Math.abs(number2);
+//   while(number2) {
+//     var temp = number2;
+//     number2 = number1 % number2;
+//     number1 = temp;
 //   }
-//   return arguments[0];
+//   return number1;
 // }
 
 // console.log(getGCD(13, 15));
+// console.log(getGCD(8, 12));
 // console.log(getGCD(20, 10));
 // console.log(getGCD(13, 15, 33));
 // console.log(getGCD("3", 15));
@@ -266,3 +268,84 @@
 // console.log("The most frequent item is : \"" + mostFrequent + "\" Seen ( " + frequency + " times ) ");
 
 //19ta tochka
+// for ( let i = 1; i <= 100; i++){
+
+//   if (i % 3 === 0 && i % 5 === 0){
+//     console.log(i + "FizzBuzz");
+//   }
+//   else if (i % 5 === 0){
+//     console.log(i + "Buzz");
+//   }
+//   else if (i % 3 === 0){
+//     console.log( i + "Fizz");
+//   }
+//   else
+//   {
+//     console.log(i);
+//   }
+// }
+
+//20ta tochka
+// for (let i = 0; i <= 15; i++){
+//   if (i % 2 == 0 ){
+//     console.log("the number: "+ i +" is even");
+//   }
+//   else{
+//     console.log("the number: "+ i +" is odd");
+//   }
+ 
+// }
+
+//21va tochka
+// function first5HappyNum(number){
+
+//   let x, y ;
+//   let cycle = [] ;
+
+//   while(number != 1 && cycle[number] !== true) 
+//   {
+//       cycle[number] = true ;
+//       x = 0 ;
+//       while (number > 0) {
+//           y = number % 10 ;
+//           x += y * y ;
+//           number = (number  - y) / 10 ;
+//       }
+//       number = x ;
+//   }
+//   return (number == 1) ;
+// }
+
+// let count = 5;
+// let num = 1;
+// let first5 = ""; 
+// while(count-- > 0) 
+// {
+//   while(!first5HappyNum(num))
+//       num++ ;
+// first5 = first5 + (num + ", ") ;
+
+//   num++ ;
+// }
+// console.log("The first 5 happy numbers are: " + first5);
+
+//22ra tochka
+// function missingAngleType(angle){
+//   if (angle > 0 && angle < 90){
+//     return "The angle is acute";
+//   }
+//   else if (angle == 90){
+//     return "The angle is right";
+//   }
+//   else if (angle > 90 && angle < 180){
+//     return "The angle is obtuse";
+//   }
+//   else {
+//     return "The angle is out of scope";
+//   }
+// }
+// console.log(missingAngleType(-15));
+// console.log(missingAngleType(30));
+// console.log(missingAngleType(90));
+// console.log(missingAngleType(163));
+// console.log(missingAngleType(180));

@@ -4,14 +4,15 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
         {
-            "type": "pwa-node",
-            "request": "launch",
-            "name": "Launch Program",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\7-JS-OOP\\ClassItem.js"
+            // "type": "pwa-node",
+            // "request": "launch",
+            // "name": "Launch Program",
+            // "skipFiles": [
+            //     "<node_internals>/**"
+            // ],
+            // "program": "${workspaceFolder}\\9-JS-Asynchronous\\async-task1.js"
         }
     ]
 }

@@ -1,0 +1,48 @@
+.box{
+    position: absolute;
+    left: 180px; 
+    top: 150px; 
+    width: 50px; 
+    height: 50px;
+}
+
+.buttons{
+    position: absolute;
+    left: 515px;
+    top: 450px;
+}
+
+img{
+    height: 25px;
+    width: 25px;
+
+}
+.leftWall{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    height: 100px;
+    width: 35px;
+}
+.rightWall{
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    height: 100px;
+    width: 35px;
+}
+.topWall{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    height: 25px;
+    width: 100px;
+}
+
+.playArea{
+    position: absolute;
+    height: 400px;
+    width: 375px;
+    top: 125px;
+    left: 325px;
+}

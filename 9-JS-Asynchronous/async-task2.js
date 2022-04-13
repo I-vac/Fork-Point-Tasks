@@ -6,7 +6,7 @@ function moveBox(str) {
       var x = document.getElementById("box").offsetTop;
       x = x - step;
       if (x <= 0) {
-        alert("udari tavana");
+        alert("you reached the top wall");
         document.dispatchEvent(boxTop);
       }
       document.getElementById("box").style.top = x + "px";
@@ -20,7 +20,7 @@ function moveBox(str) {
       var y = document.getElementById("box").offsetLeft;
       y = y + step;
       if (y >= 330) {
-        alert("udari dqsnata stena");
+        alert("you reached the right wall");
         document.dispatchEvent(boxRight);
       }
       document.getElementById("box").style.left = y + "px";
@@ -29,7 +29,7 @@ function moveBox(str) {
       var y = document.getElementById("box").offsetLeft;
       y = y - step;
       if (y <= 0) {
-        alert("udari lqvata stena");
+        alert("you reached the left wall");
         document.dispatchEvent(boxLeft);
       }
       document.getElementById("box").style.left = y + "px";

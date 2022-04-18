@@ -12,7 +12,7 @@
             // "skipFiles": [
             //     "<node_internals>/**"
             // ],
-            // "program": "${workspaceFolder}\\9-JS-Asynchronous\\async-task1.js"
+            // "program": "${workspaceFolder}\\7-JS-OOP\\ClassItem.js"
         }
     ]
 }

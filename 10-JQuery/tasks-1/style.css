@@ -83,3 +83,19 @@
 .black{
 	color: black;
 }
+
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 50px;
+	border: 1px solid red;
+}
+
+.col{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 50px;
+	border: 1px solid blue;
+}

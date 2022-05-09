@@ -19,7 +19,7 @@ $(document).ready(function(){
                             type="number"
                             min="1"
                             max="9"
-                            value="${responseText.board[i][j]}"
+                            value="${responseText.board[i][j] || ''}"
                             ${!responseText.board[i][j] ? '':'disabled'} /></div>`).addClass('sudokuCol').appendTo($row)
                       
                     }

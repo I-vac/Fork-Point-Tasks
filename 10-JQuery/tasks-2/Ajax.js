@@ -25,7 +25,6 @@ $(document).ready(function(){
                     }
                     $row.appendTo('.game-container')
             }
-          //  ${responseText.board[i][j] ? 0 : ''}
 
         })
         .fail(function (jqXHR , status ,error){
